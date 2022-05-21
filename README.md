@@ -52,4 +52,4 @@ pada file .env, isi config sesuai server sql anda
 
 - delete from db_belajar.tb_user where (name_user="rikian faisal" and password=sha1("s494tr4h4514..."))
 
-`By Rikian Faisal https://lawnsoor.com`
+By `Rikian Faisal` https://lawnsoor.com
