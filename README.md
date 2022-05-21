@@ -10,7 +10,7 @@ pada file .env, isi config sesuai server sql anda
 
 # create database
 
-create schema if not exists db_belajar
+- create schema if not exists db_belajar
 
 # read databases
 
