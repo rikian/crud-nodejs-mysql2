@@ -12,7 +12,7 @@ touch index.js
 ```
 In the file index.js paste this code
 ```javascript
-const { command } = require("./nodejs-crud-mysql2");
+const { command } = require("./nodejs-crud-mysql2/server.js");
 
 command();
 ```
