@@ -48,7 +48,7 @@ drop schema if exists db_belajar
 ```
 - you need create again database
 
-#create table
+# create table
 ```
 create table db_belajar.tb_user (idx int not null auto_increment, name_user varchar(32) not null, password varchar(64) not null, create_date varchar(32) not null, last_update varchar(32) null, primary key (idx), unique index name_user_unique (name_user))
 ```
@@ -65,7 +65,7 @@ describe db_belajar.tb_user
 - drop table if exists db_belajar.tb_user
 ```
 
-#create data
+# create data
 - insert
 ```
 insert into db_belajar.tb_user (name_user, password, create_date) values ("rikian", sha1("s494tr4h4514..."), now())
