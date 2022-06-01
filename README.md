@@ -25,7 +25,7 @@ in the terminal copy this
 ```
 create schema if not exists db_belajar
 ```
-in the file /nodejs-crud-mysql2/index.js, uncoment database and run again `node index`
+in the file `/nodejs-crud-mysql2/index.js`, uncoment database and run again `node index`
 ```javascript
 const pool = mysql2.createPool({
   host: "127.0.0.1", //localhost
