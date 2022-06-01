@@ -10,13 +10,13 @@ npm install mysql2@latest
 ```
 touch index.js
 ```
-In the file index.ja paste this code
+In the file index.js paste this code
 ```javascript
 const { command } = require("./nodejs-crud-mysql2");
 
 command();
 ```
-set config sql in the /nodejs-crud-mysql2/index.js
+set config sql in the /nodejs-crud-mysql2/server.js
 
 run `node index`
 
