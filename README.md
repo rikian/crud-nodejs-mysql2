@@ -62,7 +62,7 @@ describe db_belajar.tb_user
 ```
 - for delete table
 ```
-- drop table if exists db_belajar.tb_user
+drop table if exists db_belajar.tb_user
 ```
 
 # create data
@@ -76,7 +76,7 @@ select \* from db_belajar.tb_user
 ```
 - update data
 ```
-- update db_belajar.tb_user set name_user="rikian faisal", last_update=now() where (name_user="rikian" and password=sha1("s494tr4h4514..."))
+update db_belajar.tb_user set name_user="rikian faisal", last_update=now() where (name_user="rikian" and password=sha1("s494tr4h4514..."))
 ```
 - delete data
 ```
