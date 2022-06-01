@@ -2,7 +2,7 @@
 git clone git@github.com:rikian/nodejs-crud-mysql2.git
 ```
 ```
-npm init
+npm init -y
 ```
 ```
 npm install mysql2@latest
