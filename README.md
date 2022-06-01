@@ -42,42 +42,43 @@ const pool = mysql2.createPool({
 ```
 show databases
 ```
-delete databases
+- delete databases
 ```
 drop schema if exists db_belajar
 ```
-you need create again database
+- you need create again database
 
-for create table
+#create table
 ```
 create table db_belajar.tb_user (idx int not null auto_increment, name_user varchar(32) not null, password varchar(64) not null, create_date varchar(32) not null, last_update varchar(32) null, primary key (idx), unique index name_user_unique (name_user))
 ```
-for read tables
+- for read tables
 ```
 show tables
 ```
-for read schema
+- for read schema
 ```
 describe db_belajar.tb_user
 ```
-for delete table
+- for delete table
 ```
 - drop table if exists db_belajar.tb_user
 ```
 
-for create data
+#create data
+- insert
 ```
 insert into db_belajar.tb_user (name_user, password, create_date) values ("rikian", sha1("s494tr4h4514..."), now())
 ```
-for read all data
+- for read all data
 ```
 select \* from db_belajar.tb_user
 ```
-update data
+- update data
 ```
-update db_belajar.tb_user set name_user="rikian faisal", last_update=now() where (name_user="rikian" and password=sha1("s494tr4h4514..."))
+- update db_belajar.tb_user set name_user="rikian faisal", last_update=now() where (name_user="rikian" and password=sha1("s494tr4h4514..."))
 ```
-delete data
+- delete data
 ```
 delete from db_belajar.tb_user where (name_user="rikian faisal" and password=sha1("s494tr4h4514..."))
 ```
