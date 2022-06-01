@@ -46,7 +46,7 @@ show databases
 ```
 drop schema if exists db_belajar
 ```
-- you need create again database
+- you need create again db_belajar
 
 # create table
 ```
